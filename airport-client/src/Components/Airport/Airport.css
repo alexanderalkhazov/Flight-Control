@@ -1,0 +1,129 @@
+.main-container{
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;  
+}
+.mid-container{
+  height: 100%;
+  width: 100%;
+  background-image: url('https://wallpapers.com/images/featured/0f0dlqax2vmagtrk.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.stations-container{
+  height: 700px;
+  width: 44%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.station-row-1-container{
+  height: 100px;
+  width: 94%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+
+.station-4-container{
+  height: 125px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.basic-station {
+  background-color: rgba(1, 86, 110, 0.861);
+  margin: 10px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.267);
+  color: white;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 1px 7px 10px black;
+  border-radius: 30px;
+}
+
+.basic-station:hover {
+  background-color: rgba(56, 129, 149, 0.623);
+}
+
+.station-3-2-1-container{
+  height: 125px;
+  width: 450px;
+  display: flex;
+  justify-content: flex-end;
+}
+.station-row-2-container{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.station-5-8-container{
+  height: 200px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.station-row-3-container{
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.station-6-7-container{
+  height: 200px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2{
+  text-align: center;
+}
+div h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+span{
+  font-size: 16px;
+}
+
+.left-table {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  height: 700px;
+  width: 250px;
+
+}
+.right-table {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  height: 700px;
+  width: 250px;
+}
